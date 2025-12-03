@@ -5,7 +5,7 @@ pipeline {
       
       stage('clone project') {
             steps {
-                      git branch:'master' , url:'https://github.com/'  
+                      git branch:'master' , url:'https://github.com/tsarjun/sBoot.git'  
               }
       }
 
